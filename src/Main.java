@@ -100,6 +100,12 @@ public class Main {
         for (char ch : str.toCharArray()) {
             if (ch == '+') {
                 operation.add(String.valueOf(ch));
+            } else if (ch == '-') {
+                operation.add(String.valueOf(ch));
+            } else if (ch == '/') {
+                operation.add(String.valueOf(ch));
+            } else if (ch == '*') {
+                operation.add(String.valueOf(ch));
             }
         }
 
